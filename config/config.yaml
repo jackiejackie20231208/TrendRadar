@@ -63,7 +63,16 @@ platforms:
 # ===============================================================
 rss:
   enabled: true                       # 是否启用 RSS 抓取
-
+ 
+  feeds:
+    - name: 人民日报
+      url: http://paper.people.com.cn/rmrb/rss.html
+    - name: 新华网政治
+      url: http://www.news.cn/politics/rss/
+    - name: 教育部
+      url: http://www.moe.gov.cn/rss/
+    - name: 人民网理论
+      url: http://theory.people.com.cn/GB/40531/rss.xml
   # 文章新鲜度过滤配置（全局默认值）
   # 过滤掉发布时间超过指定天数的旧文章，避免同一篇文章重复出现在推送中
   #
